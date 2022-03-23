@@ -1,0 +1,38 @@
+{
+  "name": "♡︎ ʙᴀʙʏ ɢɪʀʟ ᴍᴜsɪᴄ ♡︎",
+  "description": "A Telegram Bot To Play Songs In Telegram Group Video Chats. Powered by PyTGCalls.",
+  "keywords": ["Music", " Videochat", "Voicechat", "Telegram"],
+  "logo": "https://telegra.ph/file/22ae93512721d5186932e.jpg",
+  "repository": "https://github.com/Abduazimov7788/chat",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram Session String Get From https://t.me/AnonymousStringBot",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A Telegram Bot Token | Get this value from @BotFather",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Username of the bot without @, Get this value from @BotFather",
+      "required": true,
+      "value": "Devil_X_Robot"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps",
+      "required": true,
+      "value": "2719576"
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps",
+      "required": true,
+      "value": "ab88e6ee1be33f53db445baf874e1c74"
+    },
+    "OWNER_ID": {
+      "description": "Telegram I'd of the owner of bot",
+      "required": true,
+      "value": "1356469075"
+    }
+  }
+}
